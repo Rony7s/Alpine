@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is alpine cdn link -->
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+</head>
+<body>
+    <h1>Show text from javascript to html</h1>
+    <div class="country" x-data="info">
+        <div class="name" x-text="c_name"></div>
+        <div class="birth" x-text="c_birth"></div>
+   </div>
+   
+    <script>
+        const info = {c_name:"People's Repulic of Bangladesh", c_birth:'1971-2022'};
+    </script>
+</body>
+</html>
