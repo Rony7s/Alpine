@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is alpine link -->
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+
+    <title>Alpine js Text dynamic</title>
+</head>
+<body>
+    <h1>Hello Alpine Practices 01</h1>
+ 
+    <div class="student" x-data="{name:'Rony Ahmmed', Roll:123456}">
+        <div class="name" x-text="name"></div>
+        <div class="roll" x-text="Roll"></div>
+   </div>
+
+</body>
+</html>
